@@ -7,6 +7,9 @@
     <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="1.0.19" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\AzureFunctionsV2.DependencyInjection\AzureFunctionsV2.DependencyInjection.csproj" />
+  </ItemGroup>
+  <ItemGroup>
     <None Update="host.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
