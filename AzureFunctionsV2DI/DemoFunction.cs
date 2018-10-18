@@ -23,6 +23,8 @@ namespace AzureFunctionsV2DI
 
             var res = demoService.GetResponse();
 
+            log.LogInformation($"Res = {res}");
+
             return new OkObjectResult(res);
         }
     }
