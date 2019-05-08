@@ -1,3 +1,5 @@
+**This repo has become deprecated, please use the native dependency injection https://github.com/Azure/azure-functions-dotnet-extensions/tree/master/src/samples/DependencyInjection/Basic**
+
 # Azure Functions V2 Dependency Injection
 Created this repo because of breaking changes made to the Azure Functions V2 runtime.
 Read more about this in [this thread](https://github.com/Azure/azure-webjobs-sdk/issues/1865)
